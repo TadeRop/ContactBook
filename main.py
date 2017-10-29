@@ -8,7 +8,7 @@ contact_book = [john, marissa, bruce]
 manager = Manager(contact_book)
 
 while True:
-    print "Choose (1-6)"
+    print "Choose (1-5)"
     print "1. Add new contact"
     print "2. Output all contacts"
     print "3. Edit contact information"
@@ -28,4 +28,4 @@ while True:
     elif choice == "5":
         break
     else:
-        print "Please enter value between 1-6"
+        print "Please enter value between 1-5"
